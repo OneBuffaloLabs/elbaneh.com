@@ -1,8 +1,8 @@
 {
-  "id": "SiloCityPages",
-  "name": "Silo City Pages",
-  "short_name": "Silo City Pages",
-  "description": "SiloCityPages: A framework by SiloCityLabs leveraging Bootstrap, React, and Next.js for efficient static site development. Deploy seamlessly to GitHub Pages.",
+  "id": "bana0615-portfolio",
+  "name": "Portfolio - Andrew Elbaneh",
+  "short_name": "Portfolio",
+  "description": "Buffalo-based full-stack software engineer Andrew Elbaneh, with 10+ years of professional experience. Passionate about coding, tech, video games, and all things Buffalo, including the Bills. Explore my portfolio.",
   "lang": "en-US",
   "dir": "ltr",
   "theme_color": "#000000",

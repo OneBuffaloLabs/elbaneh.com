@@ -8,19 +8,20 @@ export default function Home() {
       <div className="main-container">
         <Header />
         <Container className="main-content">
-          <h3 className="text-center my-3">SiloCityPages</h3>
-          <Row className="shadow-lg p-3 bg-body rounded">
+          <Row className="shadow-lg mt-3 p-3 bg-body rounded">
             <Col lg={8} className="mx-auto">
-              SiloCityPages, developed by SiloCityLabs, is a streamlined
-              framework designed to accelerate the development and deployment of
-              static websites. Leveraging the power of Bootstrap for responsive
-              design, React for component-driven architecture, and Next.js for
-              efficient rendering, SiloCityPages provides a robust foundation
-              for building modern web applications. Optimized for seamless
-              deployment to GitHub Pages, this framework simplifies the process
-              of creating and hosting performant, visually appealing websites,
-              allowing developers to focus on content and functionality rather
-              than complex configurations.
+              Test<br /><br />
+              Hello, I&apos;m Andrew Elbaneh, a full-stack software engineer
+              hailing from the heart of Buffalo, NY. Since 2014, I&apos;ve been
+              immersed in professional development, building upon a lifelong
+              passion for coding. My expertise spans the entire software stack,
+              driven by a deep curiosity for technology and a love for creating
+              innovative solutions. When I&apos;m not coding, you&apos;ll find
+              me cheering on the Buffalo Bills, exploring the vibrant culture of
+              my hometown, or diving into the latest video games and tech
+              advancements. I bring a blend of technical skill and genuine
+              enthusiasm to every project, rooted in my love for both technology
+              and the spirit of Buffalo.
             </Col>
           </Row>
         </Container>
