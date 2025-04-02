@@ -10,7 +10,6 @@ export default function Home() {
         <Container className="main-content">
           <Row className="shadow-lg mt-3 p-3 bg-body rounded">
             <Col lg={8} className="mx-auto">
-              Test<br /><br />
               Hello, I&apos;m Andrew Elbaneh, a full-stack software engineer
               hailing from the heart of Buffalo, NY. Since 2014, I&apos;ve been
               immersed in professional development, building upon a lifelong
