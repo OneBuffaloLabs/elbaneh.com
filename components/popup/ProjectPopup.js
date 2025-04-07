@@ -3,6 +3,7 @@ import { context } from "@/context/context";
 import { useContext } from "react";
 import PopContainer from "./PopupContainer";
 const ProjectPopup = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { setPortfolioModal, portfolioModal } = useContext(context);
   return (
     <PopContainer nullValue={setPortfolioModal}>

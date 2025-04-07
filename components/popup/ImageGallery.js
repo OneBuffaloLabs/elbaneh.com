@@ -2,6 +2,7 @@ import { context } from "@/context/context";
 import FsLightbox from "fslightbox-react";
 import { Fragment, useContext } from "react";
 const ImageGallery = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { gallery, setGallery } = useContext(context);
 
   return (

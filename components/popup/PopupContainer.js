@@ -4,6 +4,7 @@ import useClickOutside from "@/utility/useClickOutside";
 import { Fragment, useContext } from "react";
 
 const PopContainer = ({ children, nullValue }) => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { modalToggle, modal } = useContext(context);
   let domNode = useClickOutside(() => {
     modalToggle(false);

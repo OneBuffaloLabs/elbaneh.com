@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 const Clients = () => {
   // Isotope
   const isotope = useRef();
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [filterKey, setFilterKey] = useState("*");
   useEffect(() => {
     setTimeout(() => {
@@ -26,6 +27,7 @@ const Clients = () => {
   }, []);
   useEffect(() => {
     if (isotope.current) {
+      // eslint-disable-next-line @typescript-eslint/no-unused-expressions
       filterKey === "*"
         ? isotope.current.arrange({ filter: `*` })
         : isotope.current.arrange({ filter: `.${filterKey}` });

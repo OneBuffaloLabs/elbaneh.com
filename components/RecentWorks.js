@@ -50,6 +50,7 @@ const RecentWorks = () => {
   }, []);
   useEffect(() => {
     if (isotope.current) {
+      // eslint-disable-next-line @typescript-eslint/no-unused-expressions
       filterKey === "*"
         ? isotope.current.arrange({ filter: `*` })
         : isotope.current.arrange({ filter: `.${filterKey}` });

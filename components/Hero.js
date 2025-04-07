@@ -15,8 +15,11 @@ const Hero = ({ mouse }) => {
       <div className="centrize full-width">
         <div className="vertical-center">
           <div className="started-content">
-            <div className="h-title glitch-effect" data-text="I'm John Doe">
-              I'm <span>John Doe</span>
+            <div
+              className="h-title glitch-effect"
+              data-text="I'm Andrew Elbaneh"
+            >
+              I&apos;m <span>Andrew Elbaneh</span>
             </div>
             <span className="typed-subtitle" />
           </div>
