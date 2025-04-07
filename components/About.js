@@ -11,12 +11,17 @@ const About = () => {
         </div>
         <div className="desc">
           <p>
-            Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum
-            vocent mediocritatem an, cule dicta iriure at. Ubique maluisset vel
-            te, his dico vituperata ut. Pro ei phaedrum maluisset. Ex audire
-            suavitate has, ei quodsi tacimates sapientem sed, pri zril ubique
-            ut. Te cule tation munere noluisse. Enim torquatos ne pri, eum
-            mollis salutandi corrumpit et, fugit apeirian duo ad.
+            Hello, I&apos;m Andrew Elbaneh, a full-stack software engineer
+            hailing from the heart of Buffalo, NY. Since 2014, I&apos;ve been
+            immersed in professional development, building upon a lifelong
+            passion for coding. My expertise spans the entire software stack,
+            driven by a deep curiosity for technology and a love for creating
+            innovative solutions. When I&apos;m not coding, you&apos;ll find me
+            cheering on the Buffalo Bills, exploring the vibrant culture of my
+            hometown, or diving into the latest video games and tech
+            advancements. I bring a blend of technical skill and genuine
+            enthusiasm to every project, rooted in my love for both technology
+            and the spirit of Buffalo.
           </p>
           <div className="info-list">
             <ul>
