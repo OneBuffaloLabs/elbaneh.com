@@ -5,15 +5,15 @@ const Footer = () => {
         <a target="_blank" href="https://dribbble.com/">
           <span className="ion ion-social-dribbble" />
         </a>
-        <a target="_blank" href="https://twitter.com/">
+        {/* <a target="_blank" href="https://twitter.com/">
           <span className="ion ion-social-twitter" />
-        </a>
-        <a target="_blank" href="https://github.com/">
+        </a> */}
+        <a target="_blank" href="https://github.com/Bana0615">
           <span className="ion ion-social-github" />
         </a>
-        <a target="_blank" href="https://www.instagram.com/">
+        {/* <a target="_blank" href="https://www.instagram.com/">
           <span className="ion ion-social-instagram-outline" />
-        </a>
+        </a> */}
       </div>
       <div className="copy">
         © {new Date().getFullYear()} OneBuffaloLabs. All rights reserved.
