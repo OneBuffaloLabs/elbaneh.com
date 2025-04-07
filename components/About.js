@@ -1,4 +1,5 @@
 const About = () => {
+  const age = new Date().getFullYear() - 1992;
   return (
     <div className="section about section_" id="section-resume">
       <div className="content">
@@ -20,22 +21,25 @@ const About = () => {
           <div className="info-list">
             <ul>
               <li>
-                <strong>Name:</strong> John Doe
+                <strong>Name:</strong> Andrew Elbaneh
               </li>
               <li>
-                <strong>Age:</strong> 22 Years
+                <strong>Age:</strong> {age} Years Old
               </li>
               <li>
-                <strong>Job:</strong> Web Developer
+                <strong>Job:</strong> Senior Full Stack Engineer
               </li>
               <li>
-                <strong>Citizenship:</strong> Ukraine
+                <strong>Citizenship:</strong> US
               </li>
               <li>
-                <strong>Residence: </strong> Kiev
+                <strong>Residence: </strong> Buffalo, NY
               </li>
               <li>
-                <strong>E-mail:</strong> johndoe@domain.com
+                <strong>E-mail:</strong>{" "}
+                <a href="mailto:andrewelbaneh@gmail.com">
+                  andrewelbaneh@gmail.com
+                </a>
               </li>
             </ul>
           </div>

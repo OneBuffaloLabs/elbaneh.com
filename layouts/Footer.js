@@ -16,7 +16,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="copy">
-        © {new Date().getFullYear()} Glitche. All rights reserved.
+        © {new Date().getFullYear()} OneBuffaloLabs. All rights reserved.
       </div>
       <div className="clr" />
     </footer>

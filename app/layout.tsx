@@ -8,7 +8,7 @@ import "@/public/css/glitche-basic.css";
 import "@/public/css/glitche-layout.css";
 import "@/public/css/ionicons.css";
 import "@/public/css/magnific-popup.css";
-import "@/public/css/template-colors/orange.css";
+import "@/public/css/template-colors/green.css";
 import { Roboto_Mono } from "next/font/google";
 import "./globals.css";
 import State from "@/context/context";

@@ -3,24 +3,17 @@ const ContactsInfo = () => {
     <div className="section contacts section_" id="section-contacts">
       <div className="content">
         <div className="title">
-          <div className="title_inner">Contacts</div>
+          <div className="title_inner">Contact</div>
         </div>
         <div className="service-items">
-          <div className="service-item">
-            <div className="icon">
-              <span className="ion ion-android-phone-portrait" />
-            </div>
-            <div className="name">Phone</div>
-            <p>+ (231) 456 67 89</p>
-          </div>
           <div className="service-item">
             <div className="icon">
               <span className="ion ion-email" />
             </div>
             <div className="name">Email</div>
             <p>
-              <a href="mailto:steve-pearson@gmail.com">
-                steve-pearson@gmail.com
+              <a href="mailto:andrewelbaneh@gmail.com">
+                andrewelbaneh@gmail.com
               </a>
             </p>
           </div>
@@ -28,8 +21,8 @@ const ContactsInfo = () => {
             <div className="icon">
               <span className="ion ion-ios-location" />
             </div>
-            <div className="name">Address</div>
-            <p>2621 W Pico Blvd, Los Angeles</p>
+            <div className="name">Location</div>
+            <p>Buffalo, New York</p>
           </div>
         </div>
         <div className="contact_form">

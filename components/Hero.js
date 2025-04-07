@@ -5,7 +5,7 @@ import Typed from "typed.js";
 const Hero = ({ mouse }) => {
   useEffect(() => {
     new Typed(".typed-subtitle", {
-      strings: ["UX/UI Designer and Front-end Director.", "Based in Kiev."],
+      strings: ["Full Stack Engineer.", "Based in Buffalo, NY."],
       loop: true,
       typeSpeed: 80,
     });
@@ -27,7 +27,7 @@ const Hero = ({ mouse }) => {
       </div>
       {mouse && (
         <a href="#" className="mouse_btn">
-          <span class="ion ion-mouse"></span>
+          <span className="ion ion-mouse"></span>
         </a>
       )}
     </div>

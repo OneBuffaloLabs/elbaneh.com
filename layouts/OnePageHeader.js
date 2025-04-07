@@ -48,19 +48,19 @@ const OnePageHeader = () => {
                 Resume
               </a>
             </li>
-            <li className="">
+            {/* <li className="">
               <a href="#section-works" className="lnk">
                 Portfolio
               </a>
-            </li>
-            <li className="">
+            </li> */}
+            {/* <li className="">
               <a href="#section-blog" className="lnk">
                 Blog
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#section-contacts" className="btn">
-                Contacts
+                Contact
               </a>
             </li>
           </ul>
