@@ -1,12 +1,17 @@
 // app/layout.tsx
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "@/public/styles/_fw.css";
-import "./globals.css";
 import GoogleAnalytics from "@/components/_silabs/GoogleAnalytics";
+//Theme imports
+import Preloader from "@/layouts/Preloader";
+import "@/public/css/animate.css";
+import "@/public/css/glitche-basic.css";
+import "@/public/css/glitche-layout.css";
+import "@/public/css/ionicons.css";
+import "@/public/css/magnific-popup.css";
+import "@/public/css/template-colors/orange.css";
+import { Roboto_Mono } from "next/font/google";
+import "./globals.css";
+import State from "@/context/context";
 
 // --- Environment Variables ---
 const GA_TRACKING_ID = process.env.NEXT_PUBLIC_APP_GA_TRACKING_ID;
@@ -36,7 +41,12 @@ export const viewport: Viewport = {
 };
 
 // Setup a font (example using Inter)
-const inter = Inter({ subsets: ["latin"] });
+const robotoMono = Roboto_Mono({
+  subsets: ["latin"],
+  weight: ["100", "300", "400", "500", "700"],
+  variable: "--font-roboto",
+  display: "swap",
+});
 
 export default function RootLayout({
   children,
@@ -47,14 +57,9 @@ export default function RootLayout({
     <html lang="en">
       {GA_TRACKING_ID && <GoogleAnalytics gaId={GA_TRACKING_ID} />}
 
-      <body className={inter.className}>
-        <div className="main-container">
-          <Header />
-          <main className="main-content">
-            {children} {/* Page content */}
-          </main>
-          <Footer />
-        </div>
+      <body className={robotoMono.variable}>
+        <Preloader />
+        <State>{children} </State>
       </body>
     </html>
   );
