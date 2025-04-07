@@ -11,14 +11,6 @@ export const DesignSkills = () => {
             <li>
               <div className="name">Web Design</div>
               <div className="progress">
-                <div className="percentage" style={{ width: "70%" }}>
-                  <span className="percent">70%</span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">Illustrations</div>
-              <div className="progress">
                 <div className="percentage" style={{ width: "90%" }}>
                   <span className="percent">90%</span>
                 </div>
@@ -27,16 +19,8 @@ export const DesignSkills = () => {
             <li>
               <div className="name">Photoshop</div>
               <div className="progress">
-                <div className="percentage" style={{ width: "75%" }}>
-                  <span className="percent">75%</span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">Graphic Design</div>
-              <div className="progress">
-                <div className="percentage" style={{ width: "80%" }}>
-                  <span className="percent">80%</span>
+                <div className="percentage" style={{ width: "55%" }}>
+                  <span className="percent">55%</span>
                 </div>
               </div>
             </li>
@@ -76,10 +60,11 @@ export const LanguagesSkills = () => {
 };
 export const CodingSkills = () => {
   const skills = [
-    { id: 1, title: "WordPress", value: 90 },
-    { id: 2, title: "PHP / MYSQL", value: 75 },
-    { id: 3, title: "Angular / JavaScript", value: 85 },
+    { id: 1, title: "PHP / MYSQL", value: 95 },
+    { id: 2, title: "JavaScript / Typescript", value: 95 },
+    { id: 3, title: "WordPress", value: 90 },
     { id: 4, title: "HTML / CSS", value: 95 },
+    { id: 5, title: "Golang", value: 55 },
   ];
   return (
     <div className="section skills">
