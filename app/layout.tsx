@@ -1,4 +1,4 @@
-// app/layout.tsx
+// --- Next ---
 import type { Metadata, Viewport } from "next";
 import GoogleAnalytics from "@/components/_silabs/GoogleAnalytics";
 //Theme imports
@@ -37,7 +37,6 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 1,
-  // themeColor: "#ffffff", // Optional: Add theme color
 };
 
 // Setup a font (example using Inter)
