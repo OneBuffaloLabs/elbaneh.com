@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="soc">
-        <a target="_blank" href="https://dribbble.com/">
+        <a target="_blank" href="https://dribbble.com/Bana0615">
           <span className="ion ion-social-dribbble" />
         </a>
         {/* <a target="_blank" href="https://twitter.com/">

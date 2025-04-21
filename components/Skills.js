@@ -61,10 +61,10 @@ export const LanguagesSkills = () => {
 export const CodingSkills = () => {
   const skills = [
     { id: 1, title: "PHP / MYSQL", value: 95 },
-    { id: 2, title: "JavaScript / Typescript", value: 95 },
-    { id: 3, title: "WordPress", value: 90 },
-    { id: 4, title: "HTML / CSS", value: 95 },
-    { id: 5, title: "Golang", value: 55 },
+    { id: 2, title: "HTML / CSS", value: 95 },
+    { id: 3, title: "Python", value: 70 },
+    { id: 4, title: "JavaScript / Typescript", value: 95 },
+    { id: 5, title: "Golang", value: 65 },
   ];
   return (
     <div className="section skills">
@@ -75,7 +75,7 @@ export const CodingSkills = () => {
         <div className="skills circles">
           <ul>
             {skills.map((skill) => (
-              <li key={skill.id}>
+              <li key={`skill-${skill.id}`}>
                 <div className="name">{skill.title}</div>
                 <div className={`progress p${skill.value}`}>
                   <div
@@ -108,28 +108,49 @@ export const Knowledge = () => {
         <div className="skills list">
           <ul>
             <li>
+              <div className="name">
+                JavaScript / TypeScript (NodeJs, React, Next.js, Angular,
+                Vue.js)
+              </div>
+            </li>
+            <li>
+              <div className="name">PHP (Laravel, CakePHP, WordPress)</div>
+            </li>
+            <li>
+              <div className="name">Golang</div>
+            </li>
+            <li>
+              <div className="name">Python (Django)</div>
+            </li>
+            <li>
               <div className="name">Website hosting</div>
             </li>
             <li>
-              <div className="name">iOS and android apps</div>
+              <div className="name">IOS and Android Apps</div>
             </li>
             <li>
-              <div className="name">Create logo design</div>
+              <div className="name">
+                HTML5 & CSS3 (Material UI, Ant Design, Bootstrap, etc.)
+              </div>
             </li>
             <li>
-              <div className="name">Design for print</div>
+              <div className="name">RESTful API Development</div>
             </li>
             <li>
               <div className="name">Modern and mobile-ready</div>
             </li>
             <li>
-              <div className="name">Advertising services include</div>
+              <div className="name">Search Engine Optimization (SEO)</div>
             </li>
             <li>
-              <div className="name">Graphics and animations</div>
+              <div className="name">
+                Database Management (e.g., MySQL, PostgreSQL)
+              </div>
             </li>
             <li>
-              <div className="name">Search engine marketing</div>
+              <div className="name">
+                API Design & Development (REST, SOAP, GraphQL, gRPC)
+              </div>
             </li>
           </ul>
         </div>
