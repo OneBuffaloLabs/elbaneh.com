@@ -36,11 +36,11 @@ const Preloader = () => {
     }
   }, []);
 
-  const [text, setText] = useState("loading ...");
+  const [text, setText] = useState("Loading ...");
   useEffect(() => {
     window.location.pathname.includes("rtl")
       ? setText("جار التحميل...")
-      : "loading ...";
+      : "Loading ...";
   }, []);
 
   return (
