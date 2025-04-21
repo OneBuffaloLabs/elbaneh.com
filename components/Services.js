@@ -24,8 +24,8 @@ const Services = () => {
             </div>
             <div className="name">Mobile Application</div>
             <p>
-              Bringing your application to mobile users. Whether it's through
-              responsive web design, Progressive Web Apps (PWAs), or
+              Bringing your application to mobile users. Whether it&apos;s
+              through responsive web design, Progressive Web Apps (PWAs), or
               cross-platform development, I ensure your users have a great
               experience on their phones and tablets.
             </p>
