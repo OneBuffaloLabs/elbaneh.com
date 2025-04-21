@@ -49,7 +49,12 @@ const About = () => {
             </ul>
           </div>
           <div className="bts">
-            <a href="#" className="btn fill" data-text="Download CV">
+            <a
+              href="/files/andrew-elbaneh-resume.pdf"
+              className="btn fill"
+              data-text="Download CV"
+              download="andrew-elbaneh-resume.pdf"
+            >
               Download CV
             </a>
           </div>
